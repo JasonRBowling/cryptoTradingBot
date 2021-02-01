@@ -438,7 +438,6 @@ class moneyBot:
                 print("Amount bought: " + str(c.numBought))
                 print("Time bought: " + str(c.timeBought))
                 print("Order ID: " + str(c.lastBuyOrderID))
-                print("Amount bought: " + str(c.numBought))
                 print("Bought at: $" + str(c.purchasedPrice))
                 price = self.data.iloc[-1][c.name]
                 currentValue = price * c.numHeld
