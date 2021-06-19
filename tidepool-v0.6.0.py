@@ -7,7 +7,7 @@ import pandas as pd
 import math
 import os
 import syslog
-import robin_stocks as r
+import robin_stocks.robinhood as r
 import tideconfig as cfg
 import talib
 
